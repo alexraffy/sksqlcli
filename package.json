@@ -8,7 +8,8 @@
     "90-sksqlcli-test_input_output": "node ./bin/sksqlcli --silent --format=JSON < tests/hello.sql > tests/hello_result.json",
     "91-sksqlcli-test_localserver": "node ./bin/sksqlcli --server=ws://localhost:1420",
     "92-sksqlcli-test_createdb": "cross-env SKSQL_API_KEY='XXXXXXXXXX' node ./bin/sksqlcli --create-database=testcli",
-    "93-sksqlcli-test_listdb": "cross-env SKSQL_API_KEY='XXXXXXXXX' node ./bin/sksqlcli --list-databases --format=JSON"
+    "93-sksqlcli-test_listdb": "cross-env SKSQL_API_KEY='XXXXXXXXX' node ./bin/sksqlcli --list-databases --format=JSON",
+    "99-sksqlcli-test_usage":  "node ./bin/sksqlcli --help"
   },
 
   "dependencies": {

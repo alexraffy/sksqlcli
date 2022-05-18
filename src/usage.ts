@@ -7,6 +7,7 @@ export function usage() {
     console.log("usage: sksqlcli [options | server commands]");
     console.log("\toptions:");
     console.log("\t\t--server=address\tConnect to a distant server");
+    console.log("\t\t--token=token\tSpecify a token for server auth")
     console.log("\t\t--silent\tOnly output SQL results");
     console.log("\t\t--format=JSON\tReturn table output as JSON");
     console.log("\tserver commands:");
