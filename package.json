@@ -1,6 +1,19 @@
 {
   "name": "sksqlcli",
-  "version": "1.0.0",
+  "version": "1.1.17",
+  "description": "CLI client for sksql.",
+  "author": {
+    "name": "ARaffy"
+  },
+  "homepage": "https://github.com/alexraffy/sksqlcli",
+  "keywords": [
+    "sql",
+    "database",
+    "db",
+    "query",
+    "shared array buffer",
+    "thread"
+  ],
   "main": "build/main.js",
   "scripts": {
     "01-sksqlcli-build": "tsc",
@@ -13,7 +26,7 @@
   },
 
   "dependencies": {
-    "sksql": "^1.1.16",
+    "sksql": "^1.1.17",
     "flowbreaker":  "^1.1.2",
     "node-fetch": "^2.6.7",
     "sksqlapi": "^1.0.8",

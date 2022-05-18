@@ -48,6 +48,8 @@ export function main() {
             getState().silent = true;
         } else if (arg.startsWith("--format=JSON")) {
             getState().output = "JSON";
+        } else if (arg.startsWith("--remote-only")) {
+            getState().db.remoteModeOnly = true;
         } else if (arg.startsWith("--")){
             usage();
             process.exit(0)
