@@ -9,3 +9,4 @@ webpack.config.js
 *.map
 *.tgz
 clean.js
+*.log

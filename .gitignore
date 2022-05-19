@@ -112,3 +112,4 @@ dist
 /tests/build/
 /tests/node_modules/
 *.tgz
+*.log
